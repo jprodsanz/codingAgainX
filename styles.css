@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+    margin: 0;
+}
+.main-header {
+    background-color: #d2dbda;
+    background-image: url("backgroundIMG/newBkg.png");
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
