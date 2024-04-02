@@ -7,76 +7,73 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="nav main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="store.html">Store</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
-        <hr>
-        <h1>KanYe West</h1>
-        <button>Vultures 1</button>
-        <br>
+        <h1 class="band-name band-name-large">KanYe West</h1>
+        <div class="container">
+            <button class="btn btn-header">Vultures 1</button>
+        </div>
         <!-- toDo: find a suitable background IMG -->
-        <button>&#9658;</button>
+        <button class="btn btn-header btn-play" type="button">&#9658;</button>
     </header>
-    <section>
-        <h2>TOURS</h2>
+    <section class="content-section container">
+        <h2 class="section-header">TOURS</h2> 
         <div>
-            <div>
-                <strong>JULY 16</strong>
-                <span>CHICAGO, IL </span>
-                <span>UNITED CENTER</span>
-                <button type="button">BUY TICKETS</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">JULY 16</span>
+                <span class="tour-item tour-city">CHICAGO, IL </span>
+                <span class="tour-item tour-arena">UNITED CENTER</span>
+                <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>
             </div>
-            <div>
-                <strong>AUG 16</strong>
-                <span>DETROIT, MI </span>
-                <span>LCA</span>
-                <button type="button">BUY TICKETS</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">AUG 16</span>
+                <span class="tour-item tour-city">DETROIT, MI </span>
+                <span class="tour-item tour-arena">LCA</span>
+                <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>
             </div>
-            <div>
-                <strong>SEP 16</strong>
-                <span>LINCOLN, NE</span>
-                <span>PINNACLE BANK ARENA</span>
-                <button type="button">BUY TICKETS</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">SEP 16</span>
+                <span class="tour-item tour-city">LINCOLN, NE</span>
+                <span class="tour-item tour-arena">PINNACLE BANK ARENA</span>
+                <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>
             </div>
-            <div>
-                <strong>AUG 16</strong>
-                <span>MILWAUKEE, WI</span>
-                <span>FISERV FORUM</span>
-                <button type="button">BUY TICKETS</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">AUG 16</span>
+                <span class="tour-item tour-city">MILWAUKEE, WI</span>
+                <span class="tour-item tour-arena">FISERV FORUM</span>
+                <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>
             </div>
-            <div>
-                <strong>OCT 16</strong>
-                <span>ST PAUL, MI</span>
-                <span>XCEL ENERGY CENTER</span>
-                <button type="button">BUY TICKETS</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">OCT 16</span>
+                <span class="tour-item tour-city">ST PAUL, MI</span>
+                <span class="tour-item tour-arena">XCEL ENERGY CENTER</span>
+                <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>
             </div>
         </div>
     </section>
-    <footer>
-        <h3>yeezy.com</h3>
-        <ul>
-            <li>
-                <a href="https://www.instagram.com/ye/?hl=en" target="_blank">
-                    <img src="img/instagramNew.png" alt="instagram">
-                </a>
-                
-            </li>
-            <li>
-                <a href="https://twitter.com/kanyewest?lang=en" target="_blank">
-                    <img src="img/twitterNew.png" alt="twitter">
-                </a>
-            </li>
-        </ul>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">yeezy.com</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.instagram.com/ye/?hl=en" target="_blank">
+                            <img src="img/instagramNew.png" alt="instagram">
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/kanyewest?lang=en" target="_blank">
+                            <img src="img/twitterNew.png" alt="twitter">
+                        </a>
+                    </li>
+                </ul>
+        </div>
     </footer>
 </body>
 </html>
